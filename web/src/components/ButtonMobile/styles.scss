@@ -1,0 +1,39 @@
+.menu_mobile{
+  display: none;
+  width: 40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  height: 18px;
+  i{
+    height: 2px;
+    width: 100%;
+    background: var(--color-black);
+    display: block;
+    position: relative;
+    transition: ease 0.3s;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    &:last-child{
+      margin-bottom: 0px;
+    }
+  }
+  &.open{
+    i {
+      &:nth-child(1) {
+        transform: rotate(45deg);
+        top: 7px;
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:nth-child(3) {
+        top: -7px;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    display: inline-block
+  }
+}

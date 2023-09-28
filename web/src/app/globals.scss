@@ -1,0 +1,83 @@
+:root{
+  --color-red: #CB0D1F;
+  --color-red-text: #ED1A39;
+  --color-black: #231F20; 
+  --color-black-text: #000000; 
+  --color-dark-grey: #959595;
+  --color-grey: #ACACAC;
+  --color-grey-menu: #626262;
+  --color-light-grey: #E2DEDC;
+  --color-green: #00A8A9;
+  --color-dark-blue: #1E2B50;
+  --color-white: #fff;
+  --color-orange: #F26324;
+
+  --font-size-12: 0.75rem;
+  --font-size-14: 0.875rem;
+  --font-size-16: 1rem;
+  --font-size-18: 1.125rem;
+  --font-size-21: 1.313rem;
+  --font-size-24: 1.5rem;
+  --font-size-26: 1.625rem;
+  --font-size-32: 2rem;
+}
+
+
+
+body,
+h1,
+h2,
+ul,
+ul,
+menu,
+li,
+p,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+a:focus,
+input:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+ul, menu {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  &:focus {
+    outline-offset: none;
+    border: none;
+    outline: none;
+  }
+}
+
+.grid{
+  display: grid;
+  margin: 0 auto;
+  padding: 0px 10px;
+
+  grid-template-columns: 261px 1fr;
+  gap: 20px;
+
+  width: 1440px;
+  @media only screen and (max-width: 1439px) {width: 1024px; grid-template-columns: 208px 1fr;}
+  @media only screen and (max-width: 1023px) { width: 768px; grid-template-columns: 154px 1fr;}
+  @media only screen and (max-width: 767px) { width: 100%; display: block;}
+}

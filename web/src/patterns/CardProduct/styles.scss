@@ -1,0 +1,9 @@
+.productItens{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+
+  @media only screen and (max-width: 1439px) {gap: 10px;}
+  @media only screen and (max-width: 1023px) { gap: 15px; grid-template-columns: 1fr 1fr 1fr}
+  @media only screen and (max-width: 767px) { grid-template-columns: 1fr 1fr}
+}

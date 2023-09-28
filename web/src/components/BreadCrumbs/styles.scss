@@ -1,0 +1,17 @@
+.breadCrumbs{
+  width: 1440px;
+  padding: 0px 10px;
+  margin: 25px auto 20px;
+  color: var(--color-black-text);
+  a{  
+    text-transform: capitalize;
+    &:first-child{
+      color: var(--color-green);
+    }
+    color: var(---color-red-text);
+  }
+
+  @media only screen and (max-width: 1439px) {width: 1024px;}
+  @media only screen and (max-width: 1023px) { width: 768px;}
+  @media only screen and (max-width: 767px) { width: 100%; display: none;}
+}

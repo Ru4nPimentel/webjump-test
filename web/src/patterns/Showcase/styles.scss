@@ -1,0 +1,11 @@
+section{
+  width: 100%;
+  h1{
+    font-size: var(--font-size-32);
+    color: var(--color-red-text);
+    border-bottom: 1px solid var(--color-light-grey);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    @media only screen and (max-width: 767px) { font-weight: normal; margin-top: 15px;}
+  }
+}

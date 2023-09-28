@@ -1,0 +1,46 @@
+.typeView{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  .boxIcons{
+    button{
+      background: none;
+      cursor: pointer;
+      border: none;
+      padding: 0;
+      color: var(--color-red-text);
+      &:last-child{
+        color: var(--color-green);
+      }
+      svg{
+          font-size: 28px;
+      }
+    }
+  }
+  .boxSelect{
+    label{
+      color: var(--color-grey-menu);
+      font-weight: bold;
+      font-size: var(--font-size-12);
+      margin-right: 5px;
+    }
+    select{
+      width: 215px;
+      height: 27px;
+      border-color: var(--color-light-grey);
+      border-radius: 5px;
+      font-size: var(--font-size-14);
+    }
+  }
+  @media only screen and (max-width: 767px){
+    .boxIcons{
+      display: none;
+    }
+    .boxSelect{
+      margin: 0 auto;
+      select{
+        width: 200px;
+      }
+    }
+  }
+}

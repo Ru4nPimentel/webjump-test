@@ -1,0 +1,25 @@
+.btnCustom{
+  border: none;
+  color: var(--color-white);
+  background: var(--color-green);
+  font-size: var(--font-size-18);
+  font-weight: bold;
+  height: 40px;
+  width: 100%;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: ease 0.3s;
+
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+button{
+  font-family: '__Open_Sans_c06be9', '__Open_Sans_Fallback_c06be9';
+}

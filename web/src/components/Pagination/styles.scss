@@ -1,0 +1,19 @@
+.pagination{
+  display: block;
+  width: 227px;
+  margin: 30px auto 0px;
+  a{
+    font-size: var(--font-size-16);
+    color: var(--color-grey-menu);
+    padding: 10px;
+    &.active{
+      color: var(--color-red-text);
+    }
+    svg{
+      font-size: 20px;
+      color: var(--color-green);
+      position: relative;
+      top: 4px;
+    }
+  }
+}
