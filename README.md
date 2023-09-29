@@ -5,4 +5,6 @@ A pasta (  assessment-frontend  ) será utilizada apenas como uma API/back-end
 Abra outro terminal ou o vsCorde, abra a pasta web, rode o comando npm i.
 Na sequência utilizar o comando npm run dev para iniciar a aplicação web
 
-Foi utilizado nesse projeto o NextJS que utiliza React e Typescript, gostaria de ter feito alguns testes unitários utilizando, porem não foi possível por conta do tempo
+Foi utilizado nesse projeto o NextJS que utiliza React e Typescript, gostaria de ter feito alguns testes unitários utilizando Jest, porem não foi possível por conta do tempo
+
+Esse projeto foi criado com node v18.13.0.
